@@ -1,0 +1,251 @@
+
+.formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 1rem  0;
+  }
+  
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 530px;
+    width: 100%;
+    background: white;
+    padding: 0 2.5rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  }
+  
+  .formbold-input-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 22px;
+    position: relative;
+  }
+  .formbold-input-flex > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .formbold-textarea {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .formbold-form-input {
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 40px;
+    border: none;
+    border-bottom: 1px solid #DDE3EC;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+    outline: none;
+    resize: none;
+  }
+
+  
+  .formbold-form-inputcal {
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border: none;
+    border-bottom: 1px solid #DDE3EC;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+    outline: none;
+    resize: none;
+  }
+
+
+  .formbold-input-flex .formbold-form-input select {
+    padding-right: 70px;
+  }
+
+  .formbold-form-input::placeholder {
+    color: #536387;
+  }
+  .formbold-form-input:focus {
+    border-color: #0488B9;
+  }
+  .formbold-form-label {
+    color: #07074D;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 18px;
+  }
+  .formbold-form-input:focus + .formbold-form-label {
+    color: #0488B9;
+  }
+ 
+  .input-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #02b405;
+  }
+
+  .cancel-icon{
+    position: absolute;
+    right: 10px;
+    color: #0488B9;
+    cursor: pointer;
+  }
+
+  .cancel-icontrue{
+    position: absolute;
+    right: 35px;
+    color: #0488B9;
+    cursor: pointer;
+  }
+
+   .input-icon2 {
+    position: absolute;
+    right: 10px;
+    top: 42px;
+    cursor: pointer;
+    color: #02b405;
+  }
+
+  .error{
+    color: rgb(237, 97, 97);
+    margin-left: 4px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .formbold-form-wrapper{
+      padding: 0 1.2rem 2.5rem;
+
+    }
+  }
+
+/*   
+  .formbold-input-file {
+    margin-top: 30px;
+  }
+
+  .formbold-input-file .formbold-input-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  } */
+
+
+  /* .formbold-input-file input[type="file"] {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .formbold-filename-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 22px;
+  }
+  .formbold-filename {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 24px;
+    color: #536387;
+  }
+  .formbold-filename svg {
+    cursor: pointer;
+  }
+  
+  .formbold-btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 12px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #0488B9;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  } */
+
+
+
+  /* DatePicker.css */
+
+/* Style the input field */
+/* .my-datepicker {
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 40px;
+  border: none;
+  border-bottom: 1px solid #DDE3EC;
+  background: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  color: #353535;
+  outline: none;
+  resize: none;
+} */
+
+
+/* 
+
+
+.react-datepicker {
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.react-datepicker__month-container {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  z-index: 9999;
+}
+
+
+.react-datepicker__day {
+  padding: 0 20px;
+
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.react-datepicker__day:hover {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+
+}
+
+.react-datepicker__day--selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.react-datepicker__day--today {
+  font-weight: bold;
+} */

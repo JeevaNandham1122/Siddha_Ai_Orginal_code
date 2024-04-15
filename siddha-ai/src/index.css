@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&family=Open+Sans:wght@400;500;800&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  word-wrap: break-word; 
+}
+
+body {
+  margin: 0;
+  font-family: 'Heebo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(41, 41, 41);
+}
+
+:root {
+  --lightbl: rgba(47,169,174,1);
+  --darkbl: rgba(4,136,185,1) ;
+}
+
+ 
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.MuiFormControl-root {
+  margin-bottom: 32px !important;
+  margin-top: 10px !important;
+  text-decoration: none !important;
+}
+
+#standard-required-label {
+  font-size: 20px !important;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+
+.css-e784if-MuiTypography-root {
+  color: #00000099;
+  font-size: 16.7px !important;
+  font-weight: 600 !important
+}
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 22px !important;
+}
+.MuiFormLabel-asterisk {
+  color: #D32F2F
+}
+{/*the below takes the select components*/}
+.MuiInputLabel-standard {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  padding-bottom: 6px !important;
+}
+.download-button {
+  font-size: 44px !important;
+  padding: 22px;
+  margin: 50px;
+  margin-top: 30px !important;
+  color: rgba(4,136,185,1);
+}
+
+.MuiBox-root {
+
+} 

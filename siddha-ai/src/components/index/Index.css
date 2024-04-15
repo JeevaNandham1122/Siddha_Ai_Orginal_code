@@ -1,0 +1,133 @@
+
+.nav-bar {
+    width:100%;
+    border-bottom: 1px solid rgba(194, 132, 132, 0.25);
+  }
+
+
+
+
+/* CSS */
+
+
+.image-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeae8;
+    color:#585757;
+
+    padding: 10px 15px;
+    border: 1px solid #d5d9d9;
+    border-radius: 15px;
+    cursor: pointer;
+    min-width: 16px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+
+    /* margin: 1rem 0 0 1rem; */
+  }
+
+
+
+
+  .image-button .icon {
+    height: 20px;
+    margin-right: 10px;
+    color:#585757;
+    
+  }
+  .homeimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeimg img{
+    width: 370px;
+  }
+
+
+  .registercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    /* align-items: center; */
+    /* column-gap: 10px; */
+  }
+
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #0488B9;
+    color: #fff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    min-width: 16px;
+    margin: 1rem 0 0 4rem;
+  }
+
+.or{
+  margin: 1.6rem 1rem;
+}
+  .registercontainer input[type="file"] {
+    display: none;
+  }
+  
+  .capturebtn{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+
+.image{
+  /* margin-top: -0px; */
+  width: 90%;
+  /* height: 40%; */
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .capturebtn{    
+    font-size: 14px;
+  }
+
+  .image{
+    /* margin-top: -30px; */
+  
+  }
+  
+.image-button {
+  padding: 9px 10px;
+}
+
+.image-button .icon {
+  height: 20px;
+  margin-right: 3px;
+
+}
+
+
+.or{
+  margin: 1.6rem 10px;
+}
+
+
+}
+
+

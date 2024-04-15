@@ -1,0 +1,38 @@
+
+.insurance-image-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(4,136,185,1);
+    color: #fff;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    min-width: 16px;
+    margin: 1rem 0 0 4rem;
+    
+  }
+  .insurance-image-button .icon {
+    height: 20px;
+    margin-right: 10px;
+    
+  }
+
+
+  @media screen and (max-width: 400px) {
+   
+.insurance-image-button {
+   
+    padding: 10px 8px;
+    min-width: 13px;
+    margin: 1rem 0 0 4rem;
+    
+  }
+  .insurance-image-button .icon {
+    height: 20px;
+    margin-right: 5px;
+    
+  }
+
+  }
